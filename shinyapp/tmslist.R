@@ -3,7 +3,7 @@ ncols <- 60
 cols <- val2col(full$aadt, col=tim.colors(ncols))
 #cols <- c("#D7191C", "#FDAE61", "#FFFFBF", "#A6D96A", "#1A9641")
 
-
+load("TMS.RData")
 
 data_ <- list()
 for(i in 1:nrow(full)){
